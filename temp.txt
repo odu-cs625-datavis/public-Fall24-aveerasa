@@ -1,0 +1,13 @@
+Months	High Temp	Low Temp	Avg Temp
+Jan	28	22	25
+Feb	30	26	28
+Mar	34	30	32
+Apr	38	32	35
+May	45	41	43
+Jun	42	38	40
+Jul	38	32	35
+Aug	35	31	33
+Sep	32	28	30
+Oct	28	22	25
+Nov	25	15	20
+Dec	21	15	18
