@@ -1,8 +1,8 @@
 # CS 625, Fall 2024 Syllabus
 
-[Jump to Summary Schedule](#summary-schedule) | [Download printable PDF version](https://github.com/odu-cs625-datavis/public-fall24-mcw/raw/main/syllabus.pdf)
+[Jump to Summary Schedule](#summary-schedule) | 
 
-Asynchronous Online
+Face-to-Face session
 
 ## Course Overview
 
@@ -14,7 +14,7 @@ Asynchronous Online
 
 ## Instructor Contact and Office Hours
 
-[Dr. Ashok Kumar Veerasamy]
+[Dr. Ashok Kumar Veerasamy] 
 
 Office hours are times that I set aside each week to meet with students and answer questions about the course. No appointment is necessary.
 
@@ -48,15 +48,13 @@ All course materials will be made available in Canvas (<https://canvas.odu.edu/c
 
 ### How to Be Successful in This Course
 
-The weekly schedule will run **Monday - Sunday**.
+The lecture session will be conducted on Tuesdays and Thursdays at 11.00am - 12.15pm every week 
 
 Course materials for the coming week will be generally released on **Friday evening** or **Monday morning** at the latest.
 
 Each week there will be a reading assignment and set of Learning Checks to test your basic comprehension of the material. For weeks when we have a textbook reading, there will also be a video from Dr. Munzner, the textbook author, walking through the chapter. In addition, I will record some lecture videos to provide additional explanation and examples.
 
 You are encouraged to complete the reading assignment and Learning Checks and at least read over any homework assignment by **Wednesday** to ensure that you have time to ask questions before the due date.
-
-My lecture videos will contain additional explanations and examples beyond the textbook reading and/or Dr. Munzner's video. You are encouraged to watch these by **Friday**.
 
 *If you have questions about content or assignment requirements, you must ask - either via Canvas Discussion Boards or during office hours.*
 
