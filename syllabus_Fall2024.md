@@ -171,22 +171,22 @@ Any assignment submitted after its deadline is considered late. Late assignments
 
 |Week |Date|Topic| Textbook Reading|Resources and Assignments|
 |---|---|---|---|---|
-|1| Aug 27, 29|What's Vis and Why Do It? | Ch 1| HW1 - Setup|
-|2| Sep 3, 5| Data and Data Cleaning | Ch 2| HW2 - Data Cleaning|
+|1| Aug 27, 29|What's Vis and Why Do It? | Ch 1| HW1 - Setup - Due: Sep 8, 2024|
+|2| Sep 3, 5| Data and Data Cleaning | Ch 2| HW2 - Data Cleaning - Due: Sep 22, 2024|
 |3| Sep 10, 12| Marks and Channels |Ch 5|
-|4| Sep 17, 19|Arrange Tables | Ch 7 | HW3|
+|4| Sep 17, 19|Arrange Tables | Ch 7 | HW3 - Due: Oct 06, 2024|
 |5| Sep 24, 26| Tour through the Visualization Zoo | | Semester Project|
-|6| Oct 1, 3| Map color and Other channels | Ch 10 | HW4|
-|7| Oct 8, 10| Reduce Items and Attributes| Ch 13|
-|8| Oct 15, 17| Tue: **NO CLASS-self-study**<br/>Thu: **MID-TERM EXAM** | |
-|9| Oct 22, 24| Exploratory Data Analysis (EDA) | HW5|
+|6| Oct 1, 3| Map color and Other channels | Ch 10 | HW4 - Due: Oct 27, 2024|
+|7| Oct 8, 10| Reduce Items and Attributes| Ch 13| Project mile stone 1 due Oct 13,2024 |
+|8| Oct 15, 17| Tue: **NO CLASS-self-study**<br/>Thu: **MID-TERM EXAM** Oct 17,2024 | |
+|9| Oct 22, 24| Exploratory Data Analysis (EDA) | HW5  - Due: Nov 03, 2024|
 |10| Oct 29, 31| Multiple views| | |
-|11| Nov 5 7|Maps, Rules of Thumb, Chart Design| Ch 81.-8.3 Ch 6|
+|11| Nov 5 7|Maps, Rules of Thumb, Chart Design| Ch 81.-8.3 Ch 6|Project mile stone 2 due Nov 17,2024 |
 |12| Nov 12, 14|Storytelling vis|
 |13| Nov 19, 21| Visualization Literacy|
 |14|Nov 26, 28|**NO CLASS - Thanksgiving Break** | |
-|15| Dec 3, 5|Project Demos|  | |
-|xx| Fri Dec 16| Last day of classes | |
+|15| Dec 3, 5|Project Demos|  |Final report, chart, and video - Dec 8, 2024 Peer feedback  - Dec 11, 2024 |
+|16| Tue Dec 10| Last day of classes | |
 
 ## Course Policies
 
