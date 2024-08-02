@@ -101,12 +101,12 @@ The syntax for displaying an image is:
 `![alt text](path_to_image)`
 
 For the image in the same directory as your report, you can use  
-`![This is a picture of my House.](myOlympicSport.png)`  
-where "This is a picture of my House." will be the alt text (used for accessibility) and `myOlympicSport.png` is the filename to be displayed.
+`![This is a picture of my favorite sport.](myOlympicSport.png)`  
+where "This is a picture of my favorite sport." will be the alt text (used for accessibility) and `myOlympicSport.png` is the filename to be displayed.
 
 It might be the case that your image is too large to be displayed well in your report. In that case, you'll need to use HTML syntax to adjust the width or height (but not both) attributes of the image.  Here's an example:
 
-`<img src="myOlympicSport.png" height="100" alt="This is a picture of my house.">`
+`<img src="myOlympicSport.png" height="100" alt="This is a picture of my favorite sport.">`
 
 #### Items for Report
 
