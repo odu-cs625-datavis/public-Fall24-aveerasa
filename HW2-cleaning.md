@@ -20,26 +20,40 @@ As for all reports, there should be a "References" section that includes links t
 
 Create a new project in OpenRefine and load the movies.csv dataset available in <https://github.com/odu-cs625-datavis/public-Fall24-aveerasa>. OR you can download it from <https://www.kaggle.com/datasets/bharatnatrayn/movies-dataset-for-feature-extracion-prediction?select=movies.csv>. If you view the raw version of the data file in GitHub, you can copy that URL directly into OpenRefine to load the data without downloading it separately.
 
-Use OpenRefine to clean the dataset of movies so that you can answer the questions in Part 2. Look at the questions before you start cleaning so that you know what fields to pay attention to. Take notes and keep track of all operations you perform. As much as you can, use OpenRefine facets and GREL transforms to clean the data rather than manual editing (though, some cleaning will need to be done manually).
+Use OpenRefine to clean the dataset of movies so that you can answer the questions in Part 2. Look at the questions before you start cleaning so that you know what fields to pay attention to. Take notes and keep track of all operations you perform. As much as you can, use OpenRefine facets and GREL transforms to clean the data rather than manual editing (though, some cleaning needs to be done manually).
 1.	Remove rows/columns:
-i.	Remove blank rows/row contain misleading values/columns that has no values (more than one column of the same row for example). Remove the column "Gross".
-ii.	Remove rows that contain misleading info. You must explain in your report the criteria you defined to remove the selected rows/column. [It should be noted movie/series may have several sequels with same name]
+
+    i.	Remove blank rows/row contain misleading values/columns that has no values (more than one column of the same row for example). Remove the column "Gross".
+
+    ii.	Remove rows that contain misleading info. You must explain in your report the criteria you defined to remove those selected row(s)/column(s). [It should be noted movie/series may have several sequels with same name]
 
 
 2.	Refilling the values in the column(s):
-Refill the blank cells for the columns "Rating", "Votes", and "Run Time" to 0 and change their data type to numeric. Similarly check values of all other columns and update the values accordingly (free to decide). Your solution must be arrived via GREL or Python functions wherever it is required.  Fill "N/A" for text type column(s) that has blank cells otherwise 0. 
+
+Refill the blank cells for the columns "Rating", "Votes", and "Run Time" to 0 and change their data type to numeric. Similarly check values of all other columns and update the values accordingly (free to decide). 
+
+Your solution must be arrived via GREL or Python functions wherever it is required. Fill "N/A" for text type column(s) that has blank cells otherwise 0. 
+
 Refer <https://openrefine.org/docs/manual/grelfunctions>
 
 
 3.	The column "Year" has numerous ambiguous values. Follow the steps given below to proceed further.
-i.	Remove the rows if the cell value is Roman numerals/string only. 
-ii.	Replace the value of the year that enclosed by (xxxx) single year only. Example: (2024) --> 2024, (2021-) --> 2021, 1965 TV Special --> 1965, (ii) (2012-) --> 2012 [Apply GREL/Python commands to arrive at the solution wherever is possible]
-iii.	After successful execution of (i) to (iii) the "Year" column may have values in the format (xxxx-xxxx) or (<roman letter> xxxx-xxxx).  Create new columns  "startYear" and "endYear. Then fill the their cell by extracting value(s) from "Year" column. Refer the example given below.
- Year --> 1966:  startYear --> 1966; endYear --> 1966
- Yea --> (1966-1969): startYear --> 1966; endYear --> 1969
-Year --> (I/II/?) (1966): startYear  1966; endYear --> 1966
 
-Remove the column "Year" after successful execution of steps 3. (i) -3(iii). 
+    i.	Remove the rows if the cell value is Roman numerals/string only. 
+
+    ii.	Replace the value of the year that enclosed by (xxxx) single year only. 
+    
+        Example: (2024) --> 2024, (2021-) --> 2021, 1965 TV Special --> 1965, (ii) (2012-) --> 2012 [Apply GREL/Python commands to arrive at the solution wherever is possible]
+
+    iii. After successful execution of (i) to (iii) the "Year" column may have values in the format (xxxx-xxxx) or (<roman letter> xxxx-xxxx).  
+    
+    Create new columns  "startYear" and "endYear". Then fill the their cell by extracting value(s) from "Year" column. Refer the example given below.
+    
+    Year --> 1966:  startYear --> 1966; endYear --> 1966
+    Yea --> (1966-1969): startYear --> 1966; endYear --> 1969
+    Year --> (I/II/?) (1966): startYear  1966; endYear --> 1966
+
+    Remove the column "Year" after successful execution of steps 3. (i) -3(iii). 
 
 
 4.	Create a new column called "Verdict" and fill its values based on the criteria given below:
