@@ -1,9 +1,9 @@
 # Homework 3: Create Visualization Idioms from Real-World Data
-**Due:** Wednesday, February 14, 2024 by 11:59pm  
+**Due:** Wednesday, October 06, 2024 by 11:59pm  
 
 ## Assignment
 
-The goal of this assignment is to give you experience creating charts from real-world data. You will be using GitHub dataset(s) to create a bar chart, a scatterplot, and a multiple line chart using at least two different visualization tools.
+The goal of this assignment is to give you experience creating charts from real-world data. You will be using GitHub dataset(s) to create a bar chart (any type), a scatterplot, and a multiple line chart using at least two different visualization tools.
 
 ## Data
 
@@ -14,7 +14,7 @@ Here are some tips for dealing with the data:
 * Select the dataset(s) that contains >=4 columns and 500 rows atleast
 * Some of these dataset folders contains many .csv files. combine those and make it as single dataset.  
 * You don't have to keep the data in the same format as the original spreadsheet.
-* You can do whatever is needed to get the data in the proper format for your visualization tool, it doesn't have to be done via programming.
+* You can do whatever is needed to get the data in the proper format for your visualization tool, it doesn't have to be done via programming. However, data preprocessing must have been done before data visualization. 
 * You don't have to use the same dataset for each type of idiom, as not all idioms will be appropriate for every dataset. That is, you can use 3 different dataset 
 for differnt idioms
 * Select and design suitable chart(s) with meaningful title and labels [Don't think too much - we are just looking for simple charts that convey sense making info to the stakeholders] 
@@ -24,11 +24,12 @@ for differnt idioms
 
 As stated above, create charts using three different idioms:
 
-* bar/column chart
+* bar/column chart (horizontal/vertial, stacked)
 * scatterplot/dot plot
 * multiple line/area chart
 
-All of the charts must have a similar style ("look and feel") and must have meaningful axis labels.
+All of the charts must have a similar style ("look and feel") and must have meaningful axis labels. In addition, your charts must adhere concepts/principles/techniques explained in Chapter 5 and 7. That is, Expressiveness and Effectiveness (discreminablity, separability, pop out, separate, order & align and categorical regions :not all but the most)
+
 
 After you have created the three charts, you must **recreate** one of the charts using a different tool. This recreation should look as close as possible to the original.
 
@@ -40,22 +41,22 @@ Your GitHub repo should contain any files you used to create the charts. This in
 
 ## Report
 
-Your report is an important part of this assignment. It should be written as a narrative and not just a set of bullet points.  Your report should include your name, CS625-HW3, date, and appropriate headings and Markdown markup for clarity and neatness. You will lose points if there are many spelling or grammatical errors. 
+Your report is an important part of this assignment. It should be written as a narrative and not just a set of bullet points.  Your report should include your name, CS625-HW3, date, and appropriate headings and Markdown markup for clarity and neatness. You will lose points if there any spelling or grammatical errors. 
 
 Your report must contain the following sections:
 
 **Data**
 
-* name the table and section of the dataset(s) you've chosen
-   * for example, in class we looked at Table 133 from Section 2 Births, Deaths, Marriages, and Divorces, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/births-deaths-marriages-divorces.html>
+* name the table and the dataset(s) you've chosen
+   
 * describe any manipulation you performed on the data to prepare it for visualization, this includes choosing to use only subsets of the data (justify your decisions)
 
-**Visualization Idioms**
+**Visualization Idioms & visual encoding choices**
 
-* explain how the idioms used in the charts you created were appropriate choices for your datasets
+* Explain how the idioms used in the charts you created were appropriate choices for your datasets
 * for each chart, provide an idiom/mark/data/encode table
 
-Below is an example for a horizontal bar chart of marriage rates per state ([markdown code](#markdown-code-for-table)).  
+Below is an example for a horizontal bar chart of marriage rates per state ([markdown code](#markdown-code-for-table)). refer Chapter 7- Arrange Tables
 
 Idiom: Bar Chart / Mark: Line
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
@@ -93,7 +94,7 @@ You should be working in the private GitHub repo that was created for you in the
 
 Submit the URL of your report (not the URL of your repo) in Canvas under HW3. This should be something like
 
-`https://github.com/odu-cs625-datavis/Spring24-asv-username/blob/main/HW3-report.md` 
+`https://github.com/odu-cs625-datavis/Fall24-asv-username/blob/main/HW3-report.md` 
 
 *If you make changes to your report after submitting in Canvas, we will use the last commit time in your repo as your assignment submission time.*
 
