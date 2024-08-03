@@ -1,6 +1,6 @@
 # Homework 2: Data Cleaning
 
-**Due:** Wednesday, September 22, 2024 by 11:59pm  
+**Due:** September 22, 2024 by 11:59pm  
 
 The goal of this week's assignment is to gain experience using OpenRefine for data cleaning.  
 
@@ -47,13 +47,13 @@ Refer <https://openrefine.org/docs/manual/grelfunctions>
 
     iii. After successful execution of (i) to (iii) the "Year" column may have values in the format (xxxx-xxxx) or (<roman letter> xxxx-xxxx).  
     
-    Create new columns  "startYear" and "endYear". Then fill the their cell by extracting value(s) from "Year" column. Refer the example given below.
+    Create new columns namely "startYear" and "endYear". Then fill the their cell by extracting value(s) from "Year" column. Refer the example given below.
     
     Year --> 1966:  startYear --> 1966; endYear --> 1966
     Yea --> (1966-1969): startYear --> 1966; endYear --> 1969
     Year --> (I/II/?) (1966): startYear  1966; endYear --> 1966
 
-    Remove the column "Year" after successful execution of steps 3. (i) -3(iii). 
+    Remove the column "Year" after successful execution of steps 3.(i) - 3(iii). 
 
 
 4.	Create a new column called "Verdict" and fill its values based on the criteria given below:
