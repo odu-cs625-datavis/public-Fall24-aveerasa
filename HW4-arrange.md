@@ -1,6 +1,6 @@
 # Homework 4: Arrange Tables
 
-**Due:** Wednesday, March 9, 2024 by 11:59pm  
+**Due:**  October 27, 2024 by 11:59pm  
 
 The goal of this assignment is to propose and implement charts based on questions asked about real-world data.  You will be demonstrating that you can choose and implement charts using appropriate idioms for the data and task, incorporating chart design principles that we have covered.
 
@@ -11,28 +11,28 @@ The goal of this assignment is to propose and implement charts based on question
 Choose **one** of the following datasets. Each dataset contains 8 questions that marked "#" and "##". You must answer two "##" type questions and one "#" type question of your choice using appropriate idioms via Seaborn/Vega Lite coding. Students that from Data science should answer one of their selected "##" questions in the chosen dataset by using Seaborn/Vega Lite coding and remaining selected questions can be answered by using Tableau/Excel [I prefer Tableau].  
 
 ### Dataset 1 : Citi BIke dataset (https://citibikenyc.com/system-data)
-Download the file from the link: (https://raw.githubusercontent.com/odu-cs625-datavis/public-Spring24-aveerasa/master/CitiBike.csv)
+Download the file from the link: (https://github.com/odu-cs625-datavis/public-Fall24-aveerasa/blob/main/CitiBike.csv)
 
-**Q1:** What are the 5 least popular pick-up location(s) across the city for NY Citi Bike rental?#
+**Q1:** What are the 5 most popular pick-up location(s) across the city for NY Citi Bike rental?#
 
-**Q2:** Find the date of month(s) (January, February, and March) the bike was not used for long time?##
+**Q2:** Find the date of month(s) (January, February, and March) the bike was used for long time?##
 
-**Q3:** Which age group used/rented the bikes the most in winter and spring?##
+**Q3:** Which age group used/rented the bikes the least in winter and spring?##
 
-**Q4:** Which age group of one-time users used the bikes least or none (did not use it all)?#
+**Q4:** Which age group of one-time users used the bikes most?#
 
 **Q5:** What were the best and worst weather conditions (temperature) considered for cycling/riding?#
 
 **Q6:** What is the gender breakdown of active participants (Male v. Female)?#
 
-**Q7:** On which day of the month(s) the greatest number of male customers used the bikes?##
+**Q7:** On which day of the month(s) the greatest number of female customers used the bikes?##
 
-**Q8:** What are the top 10 stations in the city for ending a journey?# 
+**Q8:** What are the bottom 10 stations in the city for ending a journey?# 
 
 
 ### Dataset 2 : Air plane crashes Since 1908 (https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908)
 
-Download the file from the link: (https://raw.githubusercontent.com/odu-cs625-datavis/public-Spring24-aveerasa/master/Airplane_Crashes_and_Fatalities_Since_1908.csv)
+Download the file from the link: (https://github.com/odu-cs625-datavis/public-Fall24-aveerasa/blob/main/Airplane_Crashes_and_Fatalities_Since_1908.csv)
 
 **Q1:** What are the 10 worst plane crashes that happened between 1908 and 2009?#
 
@@ -57,22 +57,22 @@ Download the file from the link: (https://raw.githubusercontent.com/odu-cs625-da
 
 ### Dataset 3 : Employee compensation (https://data.world/city-of-phoenix/2b41f4f8-fe6f-48d3-8097-ad44ee5bd616)
 
-Download the file from the link: (https://raw.githubusercontent.com/odu-cs625-datavis/public-Spring24-aveerasa/master/employee%20compnesation.csv)
+Download the file from the link: (https://github.com/odu-cs625-datavis/public-Fall24-aveerasa/blob/main/employee%20compnesation.csv)
 
 
 **Q1:** What is the average monthly income of employee by marital status? #
 
-**Q2:** Job satisfaction and gender:  Are women more satisfied than men at work?## 
+**Q2:** Job satisfaction and gender:  Are men more satisfied than women at work?## 
 
-**Q3:** What is the minimum monthly rate for age group between 40 and 60 (trend analysis)?#
+**Q3:** What is the highest monthly rate for age group between 21 and 40 (trend analysis)?#
 
-**Q4:** Which department-based employees receives lowest median hourly rate? ##
+**Q4:** Which department-based employees receives more than average median hourly rate? ##
 
 **Q5:** Identify any two pairs of attributes in the dataset that have the notable positive correlation and negative correlation respectively (should be high or very high). Show your results in one bar chart with short description.  [Don’t choose the attribute pairs that gives expected results- Identify the interesting/surprising pair of attributes] ##.
 
-**Q6:** Who work more hours- Single or Married or Divorced? [Hint: computed values to visualize] ##
+**Q6:** Who work less number of hours- Single or Married or Divorced? [Hint: computed values to visualize] ##
 
-**Q7:** Display the total number of employees in each education field by histogram plot. # 
+**Q7:** Display the total number of employees in each department by histogram plot. # 
 
 **Q8:** Display the total number employees by their roles by distribution plot. #
 
