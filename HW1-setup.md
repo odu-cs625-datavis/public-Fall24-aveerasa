@@ -128,7 +128,7 @@ For this assignment, go through the [Get Started with Tableau Desktop tutorial](
 
 #### Items for Report
 
-Clone the file <ParisOlympics2024.xlsx> from my repository and connect that to Tableau to design a horizontal bar chart. Your bar chart should display the countries that won most number of medals by continent. Save the chart as an image (*don't just take a screenshot*). Save the image file in your repo (*no spaces in the filename*) and include the image in your `HW1-report.md`.  
+Clone the file <Paris_Olympics2024.xlsx> (https://github.com/odu-cs625-datavis/public-Fall24-aveerasa/blob/main/Paris_Olympics2024.xlsx) from my repository and connect that to Tableau to design a horizontal bar chart. Your bar chart should display the countries that won most number of medals by continent. Save the chart as an image (*don't just take a screenshot*). Save the image file in your repo (*no spaces in the filename*) and include the image in your `HW1-report.md`.  
 
 ## Google Colab
 
