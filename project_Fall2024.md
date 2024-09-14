@@ -12,6 +12,7 @@ This project has two internal milestones with suggested deadlines. If you submit
 |2|explore data, narrow questions, sketch proposed charts|Sunday, Nov 17|
 |final|final chart and report|Saturday, Nov 30|
 |Demo Video|Saturday, Nov 30|
+|Peer review -Demo Video|Monday, Dec 2|
 
 The due date for semester project is: Saturday, November 30 by 11:59pm.
 
